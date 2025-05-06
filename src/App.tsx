@@ -83,6 +83,26 @@ const App = () => {
     autoplay: true,
     autoplaySpeed: 4500,
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 768, // Tablettes
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true, // Centrer les éléments pour un meilleur rendu visuel
+          centerPadding: '15%', // Garder un peu de marge autour du slider
+        },
+      },
+      {
+        breakpoint: 480, // Smartphones
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true,
+          centerPadding: '20%',
+        },
+      },
+    ],
   };
 
   return (
