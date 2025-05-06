@@ -72,6 +72,13 @@ const App = () => {
       github: 'https://github.com/Revyll16/ai-prompter',
       demo: 'https://promptify-ai.netlify.app',
     },
+    {
+      name: 'API NodeJS Blog',
+      image: '/images/rythmhub2img.png',
+      stack: ['Node.js', 'Express', 'MongoDB'],
+      github: 'https://github.com/Revyll16/node-blog',
+      demo: 'https://revyll-node-blog.netlify.app',
+    },
   ];
 
   const settings = {
@@ -307,7 +314,7 @@ const App = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-4 py-2 border border-pink-500 rounded-full hover:bg-pink-500 hover:text-white transition"
                   >
-                    <FaExternalLinkAlt /> Démo
+                    <FaExternalLinkAlt /> DémoDay
                   </a>
                 </div>
               </motion.div>
