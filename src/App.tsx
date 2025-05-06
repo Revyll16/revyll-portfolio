@@ -53,21 +53,21 @@ const App = () => {
   const projects = [
     {
       name: 'Portfolio V1',
-      image: '/projects/portfolio-v1.png',
+      image: '/images/rythmhub1img.png',
       stack: ['React', 'TailwindCSS'],
       github: 'https://github.com/Revyll16/portfolio-v1',
       demo: 'https://revyll.dev',
     },
     {
       name: 'API NodeJS Blog',
-      image: '/projects/node-blog.png',
+      image: '/images/rythmhub2img.png',
       stack: ['Node.js', 'Express', 'MongoDB'],
       github: 'https://github.com/Revyll16/node-blog',
       demo: 'https://revyll-node-blog.netlify.app',
     },
     {
       name: 'AI Prompt App',
-      image: '/projects/ai-prompter.png',
+      image: '/images/rythmhub1img.png',
       stack: ['Next.js', 'Tailwind', 'MongoDB'],
       github: 'https://github.com/Revyll16/ai-prompter',
       demo: 'https://promptify-ai.netlify.app',
